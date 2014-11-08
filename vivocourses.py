@@ -11,6 +11,7 @@
 # TODO update for VIVO-ISF
 # TODO replace make_x_rdf series with add_x series
 # TODO get rid of count and i in dictionary functions.  Iterate over results
+# TODO get rid of pickle
 
 
 __author__ = "Michael Conlon"
@@ -123,6 +124,7 @@ def prepare_teaching_data(filename="course_data.csv"):
     Read a CSV file with course data.  Create a dictionary with one entry
     per OUR record
     """
+    # TODO write test function for prepare_teaching_data
 
     import os
     import pickle
